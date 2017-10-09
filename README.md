@@ -6,6 +6,6 @@ Materials for the CSC computing series (2017)
 For downlaoding the materials, clone this repository either by 
 
 ```
-git clone 
+git clone https://github.com/bhimmetoglu/CSC-Computing-2017
 ```
 or using your browser.
