@@ -15,3 +15,14 @@ or using your browser.
 * R for Scientific and Data Intensive Computing
 * Python for Scientific Computing
 * Software Containers with Singularity
+
+### R for Scientific and Data Intensive Computing
+Make sure to install the `tidyverse`, `doMC` and `glmnet` packages:
+
+```R
+install.packages("tidyverse")
+install.packages("doMC")
+install.packages("glmnet")
+```
+
+The data for the Titanic Survival Prediction is obtained from [Kaggle](https://www.kaggle.com/c/titanic).

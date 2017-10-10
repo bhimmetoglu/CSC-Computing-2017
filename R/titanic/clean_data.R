@@ -4,7 +4,6 @@
 #
 # Titanic Survival Prediction -- Data Cleaning
 #
-# Clean and prepare data
 # Libraries
 library(readr)
 library(dplyr)
