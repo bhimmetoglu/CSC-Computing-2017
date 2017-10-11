@@ -19,12 +19,16 @@ test <- as.data.frame(read_csv("./data/test.csv", col_types = 'iiccdiicdcc'))
 survival <- select(train, c(Survived,PassengerId))
 train <- mutate(train, Survived = NULL) %>% 
   mutate(is.train = 1) # Flag training data with is.train = 1
+
 test <- mutate(test, is.train = 0) # Flag test data with is.train = 0
 allData <- rbind(train,test)
 
 # Find NA's
-totNA <- function(x) { sum(is.na(x)) } # Finds total number of NA's in a given vector x
-naCols <- allData %>% summarize_all(funs(totNA)) # For all the columns, finds how many NAs there are
+totNA <- function(x) { 
+  temp <- is.na(x)
+  sum(temp)
+  } # Finds total number of NA's in a given vector x
+naCols <- allData %>% summarize_all(funs(totNA))# For all the columns, finds how many NAs there are
 cat("Number of NA's I have found: \n")
 naCols
 

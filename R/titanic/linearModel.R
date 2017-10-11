@@ -52,7 +52,7 @@ ypred_binary <- ifelse(ypred >= 0.5, 1, 0)
 acc = sum(ypred_binary == ytrain) / length(ytrain) *100
 cat("Predicted accuracy = ", acc)
 
-## A bit more advanced measure of 
+## A bit more advanced measure of performance
 # What is the area under the ROC curve? 
 library(pROC)
 auc <- roc(ytrain, ypred[,1]) 
