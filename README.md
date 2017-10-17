@@ -16,7 +16,7 @@ or using your browser.
 * Python for Scientific Computing
 * Software Containers with Singularity
 
-### R for Scientific and Data Intensive Computing
+### 1. R for Scientific and Data Intensive Computing
 Make sure to install the `tidyverse`, `doMC` and `glmnet` packages:
 
 ```R
@@ -26,3 +26,8 @@ install.packages("glmnet")
 ```
 
 The data for the Titanic Survival Prediction is obtained from [Kaggle](https://www.kaggle.com/c/titanic).
+
+### 2. Python for Scientific Computing
+The code is compatible with Python > 3. Make sure that you have `numpy`, `scipy`, `sklearn` and `matplotlib` installed. 
+
+For the molecular charge density construction, the pseudopotentials are downloaded from [Quantum Espresso](http://www.quantum-espresso.org/)
