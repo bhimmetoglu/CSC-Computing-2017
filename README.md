@@ -31,3 +31,9 @@ The data for the Titanic Survival Prediction is obtained from [Kaggle](https://w
 The code is compatible with Python > 3. Make sure that you have `numpy`, `scipy`, `sklearn` and `matplotlib` installed. 
 
 For the molecular charge density construction, the pseudopotentials are downloaded from [Quantum Espresso](http://www.quantum-espresso.org/)
+
+
+### 3. Software Containers with Singularity
+Singularity runs on Linux. Therefore, wither use a Linux machine or have a Linux instance running on your PC/Mac. 
+You can use [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for creating virtual machines that run Linux. 
+For installing Linux (e.g. Ubuntu) on a virtual machine, see for example the following [tutorial](https://linus.nci.nih.gov/bdge/installUbuntu.html)
