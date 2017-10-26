@@ -34,6 +34,6 @@ For the molecular charge density construction, the pseudopotentials are download
 
 
 ### 3. Software Containers with Singularity
-Singularity runs on Linux. Therefore, wither use a Linux machine or have a Linux instance running on your PC/Mac. 
+Singularity runs on Linux. Therefore, whether use a Linux machine or have a Linux instance running on your PC/Mac. 
 You can use [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for creating virtual machines that run Linux. 
 For installing Linux (e.g. Ubuntu) on a virtual machine, see for example the following [tutorial](https://linus.nci.nih.gov/bdge/installUbuntu.html)

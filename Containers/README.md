@@ -1,7 +1,7 @@
 # Instructions
 First [download](http://singularity.lbl.gov/install-linux) Singularity and set it up on your system.
 
-Singularity runs on Linux. Therefore, wither use a Linux machine or have a Linux instance running on your PC/Mac.
+Singularity runs on Linux. Therefore, whether use a Linux machine or have a Linux instance running on your PC/Mac.
 You can use [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for creating virtual machines that run Linux.
 For installing Linux (e.g. Ubuntu) on a virtual machine, see for example the following [tutorial](https://linus.nci.nih.gov/bdge/installUbuntu.html)
 
