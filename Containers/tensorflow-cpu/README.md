@@ -28,4 +28,4 @@ for interactive use and
 ```shell 
 singularity exec <path_to_img> python <your_python_program.py>
 
-
+for executing.

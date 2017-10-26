@@ -32,3 +32,4 @@ for interactive use and
 singularity exec <path_to_img> python <your_python_program.py> 
 ```
 
+for executing.
